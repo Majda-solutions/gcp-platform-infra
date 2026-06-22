@@ -31,11 +31,11 @@ variable "cloud_run_job_name" {
 variable "landing_bucket_name" {
   description = "Landing bucket name where source data arrives"
   type        = string
-  default     = "landing-data-iam-project-498112"
+  default     = "landing-data"
 }
 
 variable "raw_bucket_name" {
   description = "Raw bucket name where processed data is stored"
   type        = string
-  default     = "raw-data-iam-project-498112"
+  default     = "raw-data"
 }
