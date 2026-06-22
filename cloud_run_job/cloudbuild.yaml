@@ -1,0 +1,13 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - '$(params.IMAGE)'
+      - '.'
+
+images:
+  - '$(params.IMAGE)'
+
+substitutions:
+  _IMAGE: ''
