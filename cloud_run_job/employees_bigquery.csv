@@ -1,0 +1,4 @@
+employee_id,first_name,last_name,salary,department,hire_date
+1,John,Doe,60000,IT,2024-01-10
+2,Jane,Smith,70000,HR,2023-05-15
+3,Mark,Brown,80000,Finance,2022-09-01

@@ -31,11 +31,11 @@ variable "cloud_run_job_name" {
 variable "landing_bucket_name" {
   description = "Landing bucket name where source data arrives"
   type        = string
-  default     = "majda-landing-iam-project-498112-20260622"
+  default     = "majda-landing-iam-project-498112-20260622-1909"
 }
 
 variable "raw_bucket_name" {
   description = "Raw bucket name where processed data is stored"
   type        = string
-  default     = "majda-raw-iam-project-498112-20260622"
+  default     = "majda-raw-iam-project-498112-20260622-1909"
 }

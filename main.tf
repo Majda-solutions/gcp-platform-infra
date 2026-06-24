@@ -67,6 +67,7 @@ resource "google_data_loss_prevention_deidentify_template" "employee_id_hmac" {
     }
   }
 }
+/*
 #creates a Data Catalog taxonomy, which acts like a folder for organizing policy tags that are used to protect sensitive columns in BigQuery.
 resource "google_data_catalog_taxonomy" "sensitive_data_taxonomy" {
   display_name = "sensitive_data"
@@ -80,12 +81,16 @@ resource "google_data_catalog_policy_tag" "salary_sensitive" {
   display_name = "salary_sensitive"
   description  = "Protect salary values for unauthorized users."
 }
+*/
+
 #BigQuery dataset, which is like a folder that stores your BigQuery tables
 resource "google_bigquery_dataset" "main" {
   dataset_id = var.bq_dataset_id
   project    = var.project_id
   location   = var.location
 }
+
+
 #BigQuery external table called raw_employees_ext that reads CSV files directly from the raw bucket instead of storing the data inside BigQuery.
 resource "google_bigquery_table" "raw_employees_ext" {
   dataset_id = google_bigquery_dataset.main.dataset_id

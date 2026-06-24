@@ -22,6 +22,8 @@ output "cloud_run_job_name" {
   value = google_cloud_run_v2_job.employee_hash_job.name
 }
 
+/*
 output "policy_tag_salary_sensitive" {
   value = google_data_catalog_policy_tag.salary_sensitive.name
 }
+*/

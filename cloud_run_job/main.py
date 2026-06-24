@@ -14,7 +14,7 @@ def build_table_from_csv(csv_content: str) -> dlp_v2.types.Table:
 
     for row in reader:
         values = [dlp_v2.types.Value(string_value=row.get(field, "")) for field in (reader.fieldnames or [])]
-        rows.append(dlp_v2.types.Row(values=values))
+        rows.append({"values": values})
 
     return dlp_v2.types.Table(headers=headers, rows=rows)
 
