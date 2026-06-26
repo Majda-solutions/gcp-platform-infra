@@ -12,7 +12,7 @@ This repository sets up Google Cloud infrastructure for:
 ## Init
 
 ```
-terraform init
+terraform init. 
 ```
 
 ## Plan and apply
@@ -36,3 +36,4 @@ Once the image is published and the job is created:
 ```
 gcloud beta run jobs execute employee-data-copy-job --region us-central1 --project YOUR_GCP_PROJECT_ID
 ```
+Test
