@@ -10,4 +10,4 @@ images:
   - '$(params.IMAGE)'
 
 substitutions:
-  _IMAGE: ''
+  _IMAGE: "us-central1-docker.pkg.dev/iam-project-498112/cloud-run-jobs/employee-data-copy-job:latest"
