@@ -12,7 +12,7 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket  = "majda-landing-iam-project-498112-20260622-1909"
-    prefix  = "terraform/state"
+    bucket = "majda-landing-iam-project-498112-20260622-1909"
+    prefix = "terraform.tfstate"
   }
 }
