@@ -11,4 +11,8 @@ terraform {
       version = "~> 3.0"
     }
   }
+  backend "gcs" {
+    bucket  = "majda-landing-iam-project-498112-20260622-1909"
+    prefix  = "terraform/state"
+  }
 }
