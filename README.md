@@ -12,11 +12,11 @@ The repository is organized into two main areas:
 - **Cloud Infrastructure** – Describes the Google Cloud resources and infrastructure used to build and operate the pipeline.
 - **DevOps** – Describes the Infrastructure as Code, containerization, and deployment workflow used to automate the solution.
 
-# Data Flow
+## Data Flow
 
 ![Employee Data Pipeline](https://raw.githubusercontent.com/Majda-solutions/gcp-platform-infra/a6ee3be5e5aee20965d1aeef2c0ed6a40653aae8/dataflow%20pipeline.png)
 
-### Data Engineering Pipeline
+## Data Engineering Pipeline
 
 The pipeline implements an ETL workflow that ingests employee data, applies data de-identification, and prepares the dataset for analytics.
 
@@ -28,7 +28,7 @@ The pipeline implements an ETL workflow that ingests employee data, applies data
 
 ---
 
-### Google Cloud Infrastructure
+## Google Cloud Infrastructure
 
 The pipeline is built entirely with managed Google Cloud services.
 
