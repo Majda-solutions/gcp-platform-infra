@@ -4,9 +4,9 @@
 
 This project implements an end-to-end data pipeline on Google Cloud Platform.
 
-It demonstrates how data is ingested, processed, de-identified, stored, and prepared for analytics using managed Google Cloud services. The project also includes the cloud infrastructure required to support the pipeline, with all resources provisioned using Terraform (Infrastructure as Code).
+It demonstrates how data is ingested, processed, data masked, stored, and prepared for analytics using managed Google Cloud services. The project also includes the cloud infrastructure required to support the pipeline, with all resources provisioned using Terraform (Infrastructure as Code).
 
-The repository is organized into two main areas:
+The repository is organized into three main areas:
 
 - **Data Pipeline** – Describes the flow of data from ingestion through processing to analytics.
 - **Cloud Infrastructure** – Describes the Google Cloud resources and infrastructure used to build and operate the pipeline.
